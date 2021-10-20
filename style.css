@@ -139,6 +139,7 @@ nav ul li a
 	color: #373636;
 	cursor: pointer; 
 }
+ 
 
 .btn2
 {
@@ -411,7 +412,7 @@ button:active
 	border-bottom: 2px solid #ffffff;
 }
 
-.contato button
+#btnContato
 {
 	width: 200px;
 	height: 40px;
@@ -420,6 +421,9 @@ button:active
 	border:none;
 	font-size: 14px;
 	font-weight: bold;
+	cursor: pointer; 
+	text-decoration: none;
+	text-decoration-color: none;	
 }
 
 /* Seção footer */
