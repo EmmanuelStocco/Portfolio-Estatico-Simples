@@ -62,3 +62,50 @@ nav ul li a
 	font-size: 15px;
 	font-weight: 700;
 }
+
+/* Seção footer */
+
+footer
+{
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+footer p
+{
+	font-family: calibri;
+}
+
+footer p:nth-child(1)
+{
+	font-weight: bold;
+	color: #191919;
+	line-height: 10px;
+	font-size: 30px;
+}
+
+footer p:nth-child(2)
+{
+	font-size: 16px;
+	color: #7e7d7d;
+	width: 500px;
+	text-align: center;
+}
+
+.copy
+{
+	color: #565555;
+	font-size: 13px;
+	position: absolute;
+	left: 50%;
+	bottom: 10px;
+	transform: translateX(-50%);
+}
+
+footer {
+	padding-top: 40%;
+}
