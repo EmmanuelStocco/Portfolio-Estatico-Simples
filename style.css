@@ -13,6 +13,7 @@ a
 	text-decoration: none;
 }
 
+
 section
 {
 	width: 100%;
@@ -36,7 +37,7 @@ nav
 	background-color: black ;
 	color: white;
 	box-shadow: 2px 2px 12px white;
-	padding: 0px 66.7%;
+	padding: 0px 66.1%;
 	padding-top: 0;
 
 	display: flex; 
@@ -319,4 +320,10 @@ footer p:nth-child(2)
 	left: 50%;
 	bottom: 10px;
 	transform: translateX(-50%);
+}
+
+
+.href{
+	text-decoration: none;
+	color:#a8a1a1;
 }
