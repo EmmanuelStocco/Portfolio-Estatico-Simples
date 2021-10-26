@@ -1,6 +1,7 @@
 body
 {
 	background-color: #f6f5f5;
+	background: linear-gradient(to left,  #139df8 , #f6f5f5   );
 }
 
 ul
@@ -106,6 +107,47 @@ footer p:nth-child(2)
 	transform: translateX(-50%);
 }
 
+
+
 footer {
-	padding-top: 40%;
+	padding-top: 0.5%;
+}
+ 
+
+
+
+
+
+/* principal div*/
+.principal
+{
+	height: 600px;
+	background-color: #ffffff;
+	padding-top: 5%;
+	border-radius: 20px;
+	
+} 
+ .principal-textos
+{
+	width: 500px;
+	margin: 50px 0px 0px 50px;
+	
+}
+
+
+
+
+/** tentaiva IN */
+
+section {
+	background-color: white ;
+	text-align: center;
+	position: relative;
+	height: 500px; 
+}
+
+.one{
+	text-align: center;
+	justify-content: center;
+	z-index:auto;
 }
