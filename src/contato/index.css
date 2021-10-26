@@ -64,6 +64,111 @@ nav ul li a
 	font-weight: 700;
 }
 
+
+
+
+
+/* principal div*/
+.principal
+{
+	height: 600px;
+	background-color: #ffffff;
+	padding-top: 5%;
+	border-radius: 20px;
+	
+} 
+ .principal-textos
+{
+	width: 500px;
+	margin: 50px 0px 0px 50px;
+	
+}
+
+
+
+
+/** tentaiva IN */
+
+section {
+	background-color: white ;
+	text-align: center;
+	position: relative;
+	height: 500px; 
+	background: linear-gradient(#03b3f8,#90026d);
+	border-radius: 20px;
+}
+
+.one{
+	text-align: center;
+	justify-content: center;
+	z-index:auto;
+}
+
+.father{
+	text-align: center;
+	padding-top: 17%;
+	font-size: 50px;
+	color: white;
+	font-family: calibri;
+	font-weight: bold; 
+	font-size:50px;
+	line-height: 0px;
+}
+
+
+/* Contatos */
+
+.box1, .box2, .box3, .box4
+{
+	width: 290px;
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+	display: flex;
+	justify-content: center;
+	align-items:  center;
+	flex-direction: column;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+	background: white;
+	float:left;
+	margin-right: 5%;
+	align-items: center;
+	font-family: calibri;
+	color: #423e3e;
+	
+} 
+
+.conteudo-box 
+{
+	display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+	
+}
+ 
+.imgbg
+{
+	height: 100px; 
+	position: relative;
+	bottom: 20px;
+	left: 67%;
+	transform: translateX(-70%);
+
+}
+
+
+
+footer {
+	padding-top: 30%;
+	padding-right: 3%;
+}
+
+
+
 /* Seção footer */
 
 footer
@@ -107,47 +212,6 @@ footer p:nth-child(2)
 	transform: translateX(-50%);
 }
 
-
-
 footer {
 	padding-top: 0.5%;
-}
- 
-
-
-
-
-
-/* principal div*/
-.principal
-{
-	height: 600px;
-	background-color: #ffffff;
-	padding-top: 5%;
-	border-radius: 20px;
-	
-} 
- .principal-textos
-{
-	width: 500px;
-	margin: 50px 0px 0px 50px;
-	
-}
-
-
-
-
-/** tentaiva IN */
-
-section {
-	background-color: white ;
-	text-align: center;
-	position: relative;
-	height: 500px; 
-}
-
-.one{
-	text-align: center;
-	justify-content: center;
-	z-index:auto;
 }
